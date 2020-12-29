@@ -1,0 +1,126 @@
+
+/* ####### Responsive design ######### */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* ******************* */
+.header-section .banner h1 {
+    font-size: 42px;
+    margin-top: 60px;
+}
+.class-section .title h1 {
+    font-size: 32px;
+}
+.class-section .title p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.title h1 {
+    font-size: 32px;
+}
+.title p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.pricing .pricing-cards .card .card-title h5 {
+    font-size: 20px;
+}
+.intro .title p {
+    font-size: 24px;
+    line-height: 30px;
+}
+.contact .input-group .btn-light {
+    font-size: 11px;
+}
+.contact .input-group .form-control {
+    font-size: 12px;
+}
+  /* ******************* */
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* ******************* */
+.header-section .banner h1 {
+    font-size: 52px;
+    margin-top: 80px;
+}
+.class-section .title h1 {
+    font-size: 52px;
+}
+.class-section .title p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.title h1 {
+    font-size: 45px;
+}
+.title p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.intro .title p {
+    font-size: 21px;
+    line-height: 25px;
+}
+
+
+  /* ******************* */
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* ******************* */
+.header-section .banner h1 {
+    font-size: 60px;
+    margin-top: 80px;
+}
+.class-section .title h1 {
+    font-size: 50px;
+}
+.title h1 {
+    font-size: 50px;
+}
+.intro .title p {
+    font-size: 30px;
+}
+.pricing .pricing-cards .card p {
+    color: #6c9894;
+    font-size: 11px;
+}
+.featureimg h4 {
+
+    font-size: 21px;
+}
+.featureimg p {
+    font-size: 12px;
+}
+  /* ******************* */
+  
+}
